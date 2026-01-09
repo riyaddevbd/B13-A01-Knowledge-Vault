@@ -1,0 +1,252 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.font-open-sans {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+}
+.nav-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 16px 120px;
+}
+
+nav .menu {
+    display: flex;
+    list-style-type: none;
+    gap: 51px;
+    align-items: center;
+}
+nav .menu a{
+    text-decoration: none;
+    color: black;
+}
+.btn {
+    background-color: #469165;
+    width: 164px;
+    height: 44px;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+    cursor: pointer;
+}
+
+.btn:hover ,.startbtn:hover ,.seebtn:hover {
+  background-color: red;
+}
+.Earlybtn{
+    background-color:#FFFFFF;
+    color: #469165;
+    padding: 8px 12px;
+    border-radius: 1000px;
+}
+#banner{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background: url("../assets/hero-bg.png");
+    background-repeat: no-repeat;
+    width: 2042;
+    height: 1363;   
+    padding: 200px;
+}
+#banner .banner-content  h1{
+    color: #FFFFFF;
+    font-weight: 700px;
+    font-size: 72px;
+    line-height: 84px;
+}
+#banner .banner-content  p{
+    color: #FFFFFF;
+    font-weight: 400px;
+    line-height: 18px;
+}
+.btn-set{
+    gap: 20px;
+    padding: 16px ;
+}
+.startbtn{
+   background-color: #469165; 
+   color:#FFFFFF;
+   padding: 12px 16px;
+}
+.seebtn{
+   padding: 12px 16px;
+   margin: 1px ;
+   background: none;
+   color: white;
+
+}
+
+/* #structure .structure-container .section-heading{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+} */
+
+#structure .structure-container .section-heading{
+    display: flex;
+     justify-content: center;
+    flex-direction: column;
+}
+
+.color-Green {
+ color: #30B868;
+;
+}
+
+
+#structure .structure-container .structure-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 44px;
+  padding: 120px;
+  flex-direction: row;
+  text-align: center;
+}
+.structure-box .structure-card {
+    padding: 30px;
+    /* border: 1px solid red; */
+    box-shadow: 0 6px 50px 0 #00000011;
+    max-width: 267px;
+}
+.section-heading {
+    max-width: 827px;
+    text-align: center;
+    margin: 0 auto;
+
+}
+
+.section-heading h2 {
+    font-size: 48px;
+    font-weight: 700px;
+}
+
+section-heading p {
+    font-size: 16px;
+    font-weight: 400px;
+    color:#627382;
+;
+}
+
+
+/* #structure .structure-container .structure-box .structure-card{
+  justify-content: center;
+  align-items: center;  
+} */
+#structure .structure-container .structure-box .circle {
+  background-color: #F95555;
+  height: 60px;
+  width: 60px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;      
+  justify-content: center; 
+  margin-left: 35%;
+}
+
+#knowledge .knowledge-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 120px;
+    gap: 40px;
+}
+#knowledge .knowledge-container .knowledge-content p{
+    color: #627382;
+
+}
+#knowledge .knowledge-container .knowledge-content .point{
+    line-height: 40px;
+}
+#footer{
+   background-color: #001931;
+}
+
+#footer .footer-container .logo{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px 120px 16px
+;
+}
+#ready {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    padding:120px;
+   
+}
+#ready .ready-container {
+   background-color:#d8cd9f;
+   width: 1360px;
+   height: 380px;
+   
+   
+}
+
+#ready .ready-container .ready-content{
+   padding: 80px 40px ;
+   
+}
+#ready .ready-container .ready-content h1{
+   line-height: 40px;
+   
+}
+.ready-content .btnset{
+   padding-top: 20px;
+   
+}
+.CheckCircle{
+    display: flex;
+    align-items: center;
+   
+}
+.social-image{
+    padding-top: 20px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.social-image .socialCircle{
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  background-color:white;
+  display: flex;
+  align-items: center;      
+  justify-content: center; 
+  margin-left: auto;
+}
+
+.social-image img{
+    width: 20px;
+    height: 20px;
+}
+.rights{
+    color: #FFFFFF;
+    text-align: center;
+    padding: 120px;
+    
+}
+.rights h4{
+    padding-top: 30px;
+}
+
+
+.structure-card p, .ready-content p, .structure-card p{
+    color: #627382;
+;
+}
